@@ -28,7 +28,7 @@ const NftsBox = ({tokens}: NftsBoxProps): ReactElement => {
             }}
           >
             {tokens.map((token) => (
-              <NftDetails uri={token.uri} tokenId={token.id} />
+              <NftDetails key={token.id} uri={token.uri} tokenId={token.id} />
             ))}
           </div>
         </Box>
