@@ -1,6 +1,5 @@
 {
   "name": "bunzz_testing",
-  "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
